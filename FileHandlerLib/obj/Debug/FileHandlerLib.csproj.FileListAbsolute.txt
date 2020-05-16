@@ -1,0 +1,5 @@
+C:\Users\Діма\source\repos\WpfApp11\FileHandlerLib\bin\Debug\FileHandlerLib.dll
+C:\Users\Діма\source\repos\WpfApp11\FileHandlerLib\bin\Debug\FileHandlerLib.pdb
+C:\Users\Діма\source\repos\WpfApp11\FileHandlerLib\obj\Debug\FileHandlerLib.dll
+C:\Users\Діма\source\repos\WpfApp11\FileHandlerLib\obj\Debug\FileHandlerLib.pdb
+C:\Users\Діма\source\repos\WpfApp11\FileHandlerLib\obj\Debug\FileHandlerLib.csprojAssemblyReference.cache

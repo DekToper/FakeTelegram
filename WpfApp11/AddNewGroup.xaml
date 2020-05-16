@@ -1,0 +1,18 @@
+﻿<Page x:Class="WpfApp11.AddNewGroup"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp11"
+      mc:Ignorable="d"
+      Title="AddNewGroup" Height="320" Width="320" Background="White">
+
+    <Grid>
+        <Label Content="Create Group" HorizontalAlignment="Left" Margin="50,10,0,0" VerticalAlignment="Top" Background="White" Foreground="#FF00A5F1" FontSize="36"/>
+        <Button x:Name="createButton" Content="Create" HorizontalAlignment="Left" Margin="50,250,0,0" VerticalAlignment="Top" Width="223" Height="50" Background="#FF0098FF" Foreground="White" FontSize="36"/>
+        <Label Content="Group name:" HorizontalAlignment="Left" Margin="50,154,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="grupNameBox" HorizontalAlignment="Left" Height="40" Margin="50,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="223" FontSize="30"/>
+        <Label Content="Please write your group name..." HorizontalAlignment="Left" Margin="50,94,0,0" VerticalAlignment="Top" Background="White" Foreground="#FFA0A0A0"/>
+
+    </Grid>
+</Page>

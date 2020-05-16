@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UsersGroups" EntityType="Model1.UsersGroups" />
+    <EntitySet Name="Users" EntityType="Model1.User" />
+    <EntitySet Name="Groups" EntityType="Model1.Group" />
+    <AssociationSet Name="GroupUsersGroups" Association="Model1.GroupUsersGroups">
+      <End Role="Group" EntitySet="Groups" />
+      <End Role="UsersGroups" EntitySet="UsersGroups" />
+    </AssociationSet>
+    <AssociationSet Name="UserUsersGroups" Association="Model1.UserUsersGroups">
+      <End Role="User" EntitySet="Users" />
+      <End Role="UsersGroups" EntitySet="UsersGroups" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="UsersGroups">
+    <Key>
+      <PropertyRef Name="GroupId" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <NavigationProperty Name="Group" Relationship="Model1.GroupUsersGroups" FromRole="UsersGroups" ToRole="Group" />
+    <Property Name="GroupId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <NavigationProperty Name="User" Relationship="Model1.UserUsersGroups" FromRole="UsersGroups" ToRole="User" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="UsersGroups" Relationship="Model1.UserUsersGroups" FromRole="User" ToRole="UsersGroups" />
+    <Property Name="Port" Type="Int16" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="GroupId" />
+    </Key>
+    <Property Name="GroupId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="UsersGroups" Relationship="Model1.GroupUsersGroups" FromRole="Group" ToRole="UsersGroups" />
+    <Property Name="Port" Type="Int16" Nullable="false" />
+  </EntityType>
+  <Association Name="GroupUsersGroups">
+    <End Type="Model1.Group" Role="Group" Multiplicity="1" />
+    <End Type="Model1.UsersGroups" Role="UsersGroups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="GroupId" />
+      </Principal>
+      <Dependent Role="UsersGroups">
+        <PropertyRef Name="GroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserUsersGroups">
+    <End Type="Model1.User" Role="User" Multiplicity="1" />
+    <End Type="Model1.UsersGroups" Role="UsersGroups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UsersGroups">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

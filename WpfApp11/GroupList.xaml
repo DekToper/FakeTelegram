@@ -1,0 +1,19 @@
+﻿<Page x:Class="WpfApp11.GroupList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp11"
+      mc:Ignorable="d"
+      Title="GroupList" Height="375" Width="320">
+
+    <Grid Background="White">
+        <Label Content="Join Group" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" Foreground="#FF00C5FF" FontSize="48" FontWeight="Bold"/>
+        <Button Cursor="Hand" x:Name="joinButton" Content="Join" HorizontalAlignment="Left" Margin="80,315,0,0" VerticalAlignment="Top" Width="165" Height="50" Background="#FF00C5FF" Foreground="White" FontSize="36"/>
+        <ListView Name="listGroup" HorizontalAlignment="Left" Height="160" Margin="10,150,0,0" VerticalAlignment="Top" Width="300">
+        </ListView>
+        <Label Content="List Group:" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" Background="White" Foreground="#FF878787"/>
+        <Label Content="Please select group to continue..." HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top" Background="White" Foreground="#FF878787"/>
+
+    </Grid>
+</Page>

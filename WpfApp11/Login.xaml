@@ -1,0 +1,27 @@
+﻿<Page x:Class="WpfApp11.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp11"
+      mc:Ignorable="d"
+      Title="Login" Height="761" Width="773">
+
+    <Grid Height="761" Background="White" Width="773">
+        <Button Content="🡨" HorizontalAlignment="Left" Width="50" Margin="0,0,0,711" BorderBrush="White" Foreground="#FFA8A8A8" Background="White" Name="backButton" FontSize="36" Cursor="Hand"/>
+        <Button Content="🔍" Name="hideButton" HorizontalAlignment="Left" Margin="488,402,0,0" VerticalAlignment="Top" Width="39" Height="35" RenderTransformOrigin="0,0.346" FontSize="16" BorderBrush="White" Background="White" Cursor="Hand"/>
+        <Label Content="Sign in" HorizontalAlignment="Left" Margin="235,145,0,0" VerticalAlignment="Top" Background="#00000000" Foreground="Black" FontSize="48" Height="75" Width="155"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="280,298,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="280,336,0,0" VerticalAlignment="Top" Height="26" Width="208" Foreground="#FF2BA2DF" Background="#FF2BA2DF"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="28" Margin="280,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" RenderTransformOrigin="0.591,0.884" FontSize="18"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="280,373,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="280,411,0,0" VerticalAlignment="Top" Height="26" Width="208" Foreground="#FF2BA2DF" Background="#FF2BA2DF"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Height="28" Margin="280,407,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" RenderTransformOrigin="0.591,0.884" FontSize="18"/>
+        <Label Content="Enter your details to continue." HorizontalAlignment="Left" Margin="235,220,0,0" VerticalAlignment="Top" Foreground="#FFA8A8A8" FontSize="14" Height="30"/>
+        <Label Content="If you don't have an account, you can sign up." Margin="235,250,238,0" VerticalAlignment="Top" FontSize="14" Background="#00000000" Foreground="#FFA8A8A8"/>
+        <Button x:Name="nextButton" Content="NEXT" HorizontalAlignment="Left" Margin="235,465,0,0" VerticalAlignment="Top" Width="300" RenderTransformOrigin="0.333,0.25" Height="55" Background="#FF2FA7E3" Foreground="White" FontSize="24" IsCancel="True" Cursor="Hand"/>
+        <Button x:Name="signUpButton" Content="Sign up" HorizontalAlignment="Left" Margin="310,575,0,0" VerticalAlignment="Top" Width="155" Height="35" Background="#FF2FA7E3" Foreground="White" FontSize="20" Cursor="Hand"/>
+        <Label x:Name="erroreLabel" HorizontalAlignment="Left" Margin="235,525,0,0" VerticalAlignment="Top" Width="300" Background="White" Foreground="Red" FontStyle="Italic" FontFamily="Yu Gothic"/>
+
+    </Grid>
+</Page>

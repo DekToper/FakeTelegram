@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram", "WpfApp11\Telegram.csproj", "{83DFFA7B-8F97-476E-8C34-B091EF865B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{7E82F0D9-BBA3-407F-BF4E-25A8597D83AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHandlerLib", "FileHandlerLib\FileHandlerLib.csproj", "{015E93AC-12D9-4592-8893-E72004B66F4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83DFFA7B-8F97-476E-8C34-B091EF865B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DFFA7B-8F97-476E-8C34-B091EF865B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DFFA7B-8F97-476E-8C34-B091EF865B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DFFA7B-8F97-476E-8C34-B091EF865B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E82F0D9-BBA3-407F-BF4E-25A8597D83AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E82F0D9-BBA3-407F-BF4E-25A8597D83AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E82F0D9-BBA3-407F-BF4E-25A8597D83AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E82F0D9-BBA3-407F-BF4E-25A8597D83AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015E93AC-12D9-4592-8893-E72004B66F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015E93AC-12D9-4592-8893-E72004B66F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015E93AC-12D9-4592-8893-E72004B66F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015E93AC-12D9-4592-8893-E72004B66F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE8A1660-A45D-4C0E-A898-9F878CA158D6}
+	EndGlobalSection
+EndGlobal

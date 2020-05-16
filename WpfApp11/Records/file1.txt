@@ -1,0 +1,3069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WEERONLINE type="WeerOnline_Example_Travel">
+  <envelope>
+    <source>WeerOnline</source>
+    <publicationdate>2008-04-22T09:20:59.853</publicationdate>
+  </envelope>
+  <continent>
+    <continentname>Europe</continentname>
+    <country>
+      <countryname>Andorra</countryname>
+      <location>
+        <locationname>Andorra la Vella</locationname>
+        <latitude>42.50000</latitude>
+        <longitude>1.53333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>5</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>40</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>22</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>24</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>23</maximumtemperature>
+          <minimumtemperature>12</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Albania</countryname>
+      <location>
+        <locationname>Tirana</locationname>
+        <latitude>41.33333</latitude>
+        <longitude>19.78333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>10</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>wbs2__</weathersymbol>
+          <textweathersymbol>sunny and the odd shower</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>65</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Bosnia and Herzegovina</countryname>
+      <location>
+        <locationname>Sarajevo</locationname>
+        <latitude>43.86666</latitude>
+        <longitude>18.43333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wbg1__</weathersymbol>
+          <textweathersymbol>partly cloudy and risk of a thunder shower</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>25</sunduration>
+          <precipitationprobability>65</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>11</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>bwr1__</weathersymbol>
+          <textweathersymbol>cloudy and light rain or drizzle</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>10</sunduration>
+          <precipitationprobability>60</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>35</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Bulgaria</countryname>
+      <location>
+        <locationname>Sofia</locationname>
+        <latitude>42.65000</latitude>
+        <longitude>23.38333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>22</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>35</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>40</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>30</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Belgium</countryname>
+      <location>
+        <locationname>Brussels</locationname>
+        <latitude>50.90000</latitude>
+        <longitude>4.53333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>25</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>25</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>wbs1__</weathersymbol>
+          <textweathersymbol>partly cloudy and the odd shower</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>25</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>21</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>25</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Belarus</countryname>
+      <location>
+        <locationname>Minsk</locationname>
+        <latitude>53.93333</latitude>
+        <longitude>27.63333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>1</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>11</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>0</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>95</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>85</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>30</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Cyprus</countryname>
+      <location>
+        <locationname>Nicosia</locationname>
+        <latitude>35.15000</latitude>
+        <longitude>33.40000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>34</maximumtemperature>
+          <minimumtemperature>17</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>85</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>35</maximumtemperature>
+          <minimumtemperature>20</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>90</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>32</maximumtemperature>
+          <minimumtemperature>20</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>90</sunduration>
+          <precipitationprobability>30</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>29</maximumtemperature>
+          <minimumtemperature>14</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>40</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>29</maximumtemperature>
+          <minimumtemperature>16</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>25</maximumtemperature>
+          <minimumtemperature>16</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>45</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Czech Republic</countryname>
+      <location>
+        <locationname>Prag</locationname>
+        <latitude>50.10000</latitude>
+        <longitude>14.25000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>8</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>bwr2__</weathersymbol>
+          <textweathersymbol>cloudy and occasional rain</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>5</sunduration>
+          <precipitationprobability>90</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>wbr2__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible showers</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>15</sunduration>
+          <precipitationprobability>70</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>60</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Germany</countryname>
+      <location>
+        <locationname>Berlin</locationname>
+        <latitude>52.51667</latitude>
+        <longitude>13.40000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>90</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>wbr2__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible showers</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>20</sunduration>
+          <precipitationprobability>70</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>25</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wbs1__</weathersymbol>
+          <textweathersymbol>partly cloudy and the odd shower</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>60</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Estonia</countryname>
+      <location>
+        <locationname>Tallinn</locationname>
+        <latitude>59.38334</latitude>
+        <longitude>24.58333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>8</maximumtemperature>
+          <minimumtemperature>0</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>10</maximumtemperature>
+          <minimumtemperature>-2</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>11</maximumtemperature>
+          <minimumtemperature>0</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>-1</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Denmark</countryname>
+      <location>
+        <locationname>Kopenhagen</locationname>
+        <latitude>55.61666</latitude>
+        <longitude>12.65000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>90</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>11</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>95</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>30</sunduration>
+          <precipitationprobability>45</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>30</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>20</sunduration>
+          <precipitationprobability>45</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Finland</countryname>
+      <location>
+        <locationname>Helsinki</locationname>
+        <latitude>60.31667</latitude>
+        <longitude>24.96667</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>9</maximumtemperature>
+          <minimumtemperature>-1</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>11</maximumtemperature>
+          <minimumtemperature>0</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>1</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>0</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>30</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Monaco</countryname>
+      <location>
+        <locationname>Monaco</locationname>
+        <latitude>43.73333</latitude>
+        <longitude>7.36667</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>12</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>12</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>30</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>14</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>14</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>13</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>France</countryname>
+      <location>
+        <locationname>Paris</locationname>
+        <latitude>48.73333</latitude>
+        <longitude>2.40000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>20</sunduration>
+          <precipitationprobability>40</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>wbs2__</weathersymbol>
+          <textweathersymbol>sunny and the odd shower</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>20</sunduration>
+          <precipitationprobability>65</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>23</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Gibraltar</countryname>
+      <location>
+        <locationname>Gibraltar</locationname>
+        <latitude>36.15000</latitude>
+        <longitude>-5.35000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>21</maximumtemperature>
+          <minimumtemperature>14</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>23</maximumtemperature>
+          <minimumtemperature>15</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>21</maximumtemperature>
+          <minimumtemperature>16</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>16</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>6</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>16</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>5</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>15</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Greenland</countryname>
+      <location>
+        <locationname>Narssarssuaq</locationname>
+        <latitude>61.16667</latitude>
+        <longitude>-45.41667</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>5</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>30</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>10</maximumtemperature>
+          <minimumtemperature>1</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>9</maximumtemperature>
+          <minimumtemperature>1</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>9</maximumtemperature>
+          <minimumtemperature>1</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Greece</countryname>
+      <location>
+        <locationname>Athens</locationname>
+        <latitude>37.90000</latitude>
+        <longitude>23.73333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>26</maximumtemperature>
+          <minimumtemperature>19</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>22</maximumtemperature>
+          <minimumtemperature>15</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>30</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>23</maximumtemperature>
+          <minimumtemperature>12</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>85</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>21</maximumtemperature>
+          <minimumtemperature>13</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>12</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Hungary</countryname>
+      <location>
+        <locationname>Budapest</locationname>
+        <latitude>47.43333</latitude>
+        <longitude>19.18333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>10</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>35</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>bwr2__</weathersymbol>
+          <textweathersymbol>cloudy and occasional rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>10</sunduration>
+          <precipitationprobability>70</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>90</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Ireland</countryname>
+      <location>
+        <locationname>Dublin</locationname>
+        <latitude>53.33333</latitude>
+        <longitude>-6.25000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>40</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wbs2__</weathersymbol>
+          <textweathersymbol>sunny and the odd shower</textweathersymbol>
+          <windstrength>5</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>75</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>5</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>10</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>45</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wbs1__</weathersymbol>
+          <textweathersymbol>partly cloudy and the odd shower</textweathersymbol>
+          <windstrength>5</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>70</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Iceland</countryname>
+      <location>
+        <locationname>Reykjavik</locationname>
+        <latitude>64.13333</latitude>
+        <longitude>-21.90000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>10</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>25</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>11</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>wbr2__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible showers</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>20</sunduration>
+          <precipitationprobability>95</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wbr2__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible showers</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>30</sunduration>
+          <precipitationprobability>70</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>11</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>9</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>8</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Italy</countryname>
+      <location>
+        <locationname>Rome</locationname>
+        <latitude>41.80000</latitude>
+        <longitude>12.23333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>12</minimumtemperature>
+          <weathersymbol>wbg1__</weathersymbol>
+          <textweathersymbol>partly cloudy and risk of a thunder shower</textweathersymbol>
+          <windstrength>5</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>10</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>21</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>85</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Liechtenstein</countryname>
+      <location>
+        <locationname>Vaduz</locationname>
+        <latitude>47.13334</latitude>
+        <longitude>9.51667</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>9</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>bdr3__</weathersymbol>
+          <textweathersymbol>overcast and rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>0</sunduration>
+          <precipitationprobability>95</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>30</sunduration>
+          <precipitationprobability>70</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>21</maximumtemperature>
+          <minimumtemperature>10</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Slovenia</countryname>
+      <location>
+        <locationname>Ljubljana</locationname>
+        <latitude>46.21667</latitude>
+        <longitude>14.48333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>11</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>bwg2__</weathersymbol>
+          <textweathersymbol>cloudy and risk of a thunder shower</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>0</sunduration>
+          <precipitationprobability>70</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>wbs1__</weathersymbol>
+          <textweathersymbol>partly cloudy and the odd shower</textweathersymbol>
+          <windstrength>1</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>30</sunduration>
+          <precipitationprobability>60</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>30</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Latvia</countryname>
+      <location>
+        <locationname>Riga</locationname>
+        <latitude>56.96667</latitude>
+        <longitude>24.05000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>11</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>10</maximumtemperature>
+          <minimumtemperature>1</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>100</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>-1</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>1</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Lithuania</countryname>
+      <location>
+        <locationname>Vilnius</locationname>
+        <latitude>54.63334</latitude>
+        <longitude>25.10000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>95</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>-2</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>85</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>35</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Luxembourg</countryname>
+      <location>
+        <locationname>Luxemburg</locationname>
+        <latitude>49.61666</latitude>
+        <longitude>6.21667</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>15</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>wbg1__</weathersymbol>
+          <textweathersymbol>partly cloudy and risk of a thunder shower</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>wbg2__</weathersymbol>
+          <textweathersymbol>partly cloudy and  possible thunder showers</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>25</sunduration>
+          <precipitationprobability>60</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Macedonia</countryname>
+      <location>
+        <locationname>Skopje</locationname>
+        <latitude>41.96667</latitude>
+        <longitude>21.65000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>26</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>22</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>30</sunduration>
+          <precipitationprobability>40</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>1</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Malta</countryname>
+      <location>
+        <locationname>Malta</locationname>
+        <latitude>35.90000</latitude>
+        <longitude>14.51667</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>15</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>14</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>14</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>14</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>45</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>13</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>13</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Moldova</countryname>
+      <location>
+        <locationname>Chisinau</locationname>
+        <latitude>47.01667</latitude>
+        <longitude>28.98333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>45</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>90</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>90</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>35</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Netherlands</countryname>
+      <location>
+        <locationname>Amsterdam</locationname>
+        <latitude>52.30000</latitude>
+        <longitude>4.76667</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>wbs1__</weathersymbol>
+          <textweathersymbol>partly cloudy and the odd shower</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>25</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>21</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>10</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>30</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Norway</countryname>
+      <location>
+        <locationname>Oslo</locationname>
+        <latitude>60.20000</latitude>
+        <longitude>11.08333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>40</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>1</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>-1</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>15</sunduration>
+          <precipitationprobability>30</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>25</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>10</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>bwr2__</weathersymbol>
+          <textweathersymbol>cloudy and occasional rain</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>10</sunduration>
+          <precipitationprobability>60</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Austria</countryname>
+      <location>
+        <locationname>Vienna</locationname>
+        <latitude>48.20000</latitude>
+        <longitude>16.36667</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>wbg1__</weathersymbol>
+          <textweathersymbol>partly cloudy and risk of a thunder shower</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>10</minimumtemperature>
+          <weathersymbol>bwr2__</weathersymbol>
+          <textweathersymbol>cloudy and occasional rain</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>5</sunduration>
+          <precipitationprobability>70</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>40</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Poland</countryname>
+      <location>
+        <locationname>Warsaw</locationname>
+        <latitude>52.16667</latitude>
+        <longitude>20.96667</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>95</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>90</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>14</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>35</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>30</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Portugal</countryname>
+      <location>
+        <locationname>Lisbon</locationname>
+        <latitude>38.76667</latitude>
+        <longitude>-9.13333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>12</minimumtemperature>
+          <weathersymbol>wbr2__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible showers</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>70</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>22</maximumtemperature>
+          <minimumtemperature>14</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>55</sunduration>
+          <precipitationprobability>45</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>26</maximumtemperature>
+          <minimumtemperature>14</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>85</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>27</maximumtemperature>
+          <minimumtemperature>16</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>27</maximumtemperature>
+          <minimumtemperature>16</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>90</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>29</maximumtemperature>
+          <minimumtemperature>16</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>95</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Croatia</countryname>
+      <location>
+        <locationname>Zagreb</locationname>
+        <latitude>45.73333</latitude>
+        <longitude>16.06667</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>35</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>bwr2__</weathersymbol>
+          <textweathersymbol>cloudy and occasional rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>10</sunduration>
+          <precipitationprobability>80</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>35</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>30</sunduration>
+          <precipitationprobability>30</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>21</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Romania</countryname>
+      <location>
+        <locationname>Bukarest</locationname>
+        <latitude>44.48333</latitude>
+        <longitude>26.18333</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>25</maximumtemperature>
+          <minimumtemperature>11</minimumtemperature>
+          <weathersymbol>wbg1__</weathersymbol>
+          <textweathersymbol>partly cloudy and risk of a thunder shower</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>60</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>23</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>11</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>15</sunduration>
+          <precipitationprobability>65</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Russia</countryname>
+      <location>
+        <locationname>Moscow</locationname>
+        <latitude>55.83333</latitude>
+        <longitude>37.61666</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>10</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>8</maximumtemperature>
+          <minimumtemperature>-1</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NE</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>10</maximumtemperature>
+          <minimumtemperature>-2</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>11</maximumtemperature>
+          <minimumtemperature>2</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>40</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>20</sunduration>
+          <precipitationprobability>30</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Slovakia</countryname>
+      <location>
+        <locationname>Bratislava</locationname>
+        <latitude>48.20000</latitude>
+        <longitude>17.20000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wbg2__</weathersymbol>
+          <textweathersymbol>partly cloudy and  possible thunder showers</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>25</sunduration>
+          <precipitationprobability>45</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>5</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>80</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>20</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>19</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Sweden</countryname>
+      <location>
+        <locationname>Stockholm</locationname>
+        <latitude>59.35000</latitude>
+        <longitude>17.95000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>-1</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>70</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>-2</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>16</maximumtemperature>
+          <minimumtemperature>3</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>15</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>12</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>25</sunduration>
+          <precipitationprobability>40</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>13</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>30</sunduration>
+          <precipitationprobability>15</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Spain</countryname>
+      <location>
+        <locationname>Madrid</locationname>
+        <latitude>40.45000</latitude>
+        <longitude>-3.55000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>wb____</weathersymbol>
+          <textweathersymbol>partly cloudy</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>40</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>22</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>35</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>26</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>E</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>35</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>26</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>60</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>27</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>SE</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>28</maximumtemperature>
+          <minimumtemperature>8</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>S</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>Switzerland</countryname>
+      <location>
+        <locationname>Bern</locationname>
+        <latitude>46.91667</latitude>
+        <longitude>7.50000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>10</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>bdr3__</weathersymbol>
+          <textweathersymbol>overcast and rain</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>W</winddirection>
+          <sunduration>5</sunduration>
+          <precipitationprobability>95</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>30</sunduration>
+          <precipitationprobability>60</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-24T00:00:00">
+          <date>2008-04-24T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>4</minimumtemperature>
+          <weathersymbol>wbr1__</weathersymbol>
+          <textweathersymbol>partly cloudy and possible light rain</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>55</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-25T00:00:00">
+          <date>2008-04-25T00:00:00</date>
+          <maximumtemperature>18</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>50</sunduration>
+          <precipitationprobability>10</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-26T00:00:00">
+          <date>2008-04-26T00:00:00</date>
+          <maximumtemperature>21</maximumtemperature>
+          <minimumtemperature>6</minimumtemperature>
+          <weathersymbol>so____</weathersymbol>
+          <textweathersymbol>sunny</textweathersymbol>
+          <windstrength>2</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>75</sunduration>
+          <precipitationprobability>5</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-27T00:00:00">
+          <date>2008-04-27T00:00:00</date>
+          <maximumtemperature>21</maximumtemperature>
+          <minimumtemperature>7</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>NW</winddirection>
+          <sunduration>65</sunduration>
+          <precipitationprobability>25</precipitationprobability>
+        </weatherinfo>
+      </location>
+    </country>
+    <country>
+      <countryname>San Marino</countryname>
+      <location>
+        <locationname>San Marino</locationname>
+        <latitude>43.93333</latitude>
+        <longitude>12.45000</longitude>
+        <weatherinfo date="2008-04-22T00:00:00">
+          <date>2008-04-22T00:00:00</date>
+          <maximumtemperature>17</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>wbg1__</weathersymbol>
+          <textweathersymbol>partly cloudy and risk of a thunder shower</textweathersymbol>
+          <windstrength>4</windstrength>
+          <winddirection>SW</winddirection>
+          <sunduration>20</sunduration>
+          <precipitationprobability>65</precipitationprobability>
+        </weatherinfo>
+        <weatherinfo date="2008-04-23T00:00:00">
+          <date>2008-04-23T00:00:00</date>
+          <maximumtemperature>20</maximumtemperature>
+          <minimumtemperature>9</minimumtemperature>
+          <weathersymbol>ms____</weathersymbol>
+          <textweathersymbol>sunny with some scattered clouds</textweathersymbol>
+          <windstrength>3</windstrength>
+          <winddirection>N</winddirection>
+          <sunduration>45</sunduration>
+          <precipitationprobability>20</prec                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
