@@ -36,18 +36,36 @@ namespace WpfApp11
         {
             telegram = t;
         }
-        public void AddGroup(string groupName)
+        public void AddGroup(string groupName, bool groupUser)
         {
-            Group group = new Group();
+            Group group;
+            Frame frame = new Frame();
+            if (groupUser)
+            {
+                group = new Group("User");
+                frame.Tag = "User";
+                group.Date.Content = "User";
+            }
+            else
+            {
+                group = new Group("Group");
+                frame.Tag = "Group";
+                group.Date.Content = "Group";
+            }
             group.GroupName.Content = groupName;
             group.Text.Content = "";
-            group.Date.Content = "";
-            Frame frame = new Frame();
             frame.Navigate(group);
             frame.Name = group.GroupName.Content.ToString();
             telegram.listbox.Items.Add(frame);
-
         }
+
+        public void SendMessageToServer(string userName, string groupName, string dataTime, string message)
+        {
+            byte[] data = Encoding.Default.GetBytes($"ё{userName}Ё{groupName}Ё{dataTime}Ё{message}");
+
+            telegram.serverConect.udpClient.Send(data, data.Length, new IPEndPoint(telegram.serverConect.groupAddress, telegram.serverConect.sendPort));
+        }
+
 
         public void Send(byte[] data, IPEndPoint iPEndPoint)
         {
@@ -67,9 +85,27 @@ namespace WpfApp11
             {
                 byte[] groupData = telegram.serverConect.udpClient.Receive(ref sender);
                 string groupInfo = Encoding.Default.GetString(groupData);
-                AddGroup(groupInfo);
+                AddGroup(groupInfo,false);
+
             }
 
+        }
+
+        internal void LoadFriends()
+        {
+            IPEndPoint iPEndPoint = new IPEndPoint(telegram.serverConect.groupAddress, telegram.serverConect.sendPort);
+            byte[] data = Encoding.Default.GetBytes("/" + telegram.user.name);
+            Send(data, iPEndPoint);
+            IPEndPoint sender = null;
+            byte[] kol = telegram.serverConect.udpClient.Receive(ref sender);
+            int j = Convert.ToInt32(Encoding.Default.GetString(kol));
+
+            for (int i = 0; i < j; i++)
+            {
+                byte[] userData = telegram.serverConect.udpClient.Receive(ref sender);
+                string userName = Encoding.Default.GetString(userData);
+                AddGroup(userName,true);
+            }
         }
 
         public void GetAllGroups()
@@ -79,18 +115,45 @@ namespace WpfApp11
             Send(data, iPEndPoint);
             IPEndPoint sender = null;
             byte[] kol = telegram.serverConect.udpClient.Receive(ref sender);
+            try
+            {
+                int j = Convert.ToInt32(Encoding.Default.GetString(kol));
+                for (int i = 0; i < j; i++)
+                {
+                    byte[] groupData = telegram.serverConect.udpClient.Receive(ref sender);
+                    string groupInfo = Encoding.Default.GetString(groupData);
+                    ListViewItem listViewItem = new ListViewItem();
+                    listViewItem.Content = groupInfo;
+                    listViewItem.HorizontalContentAlignment = HorizontalAlignment.Left;
+                    listViewItem.HorizontalAlignment = HorizontalAlignment.Left;
+                    telegram.groupList.listGroup.Items.Add(listViewItem);
+                }
+            }
+            catch
+            {
+
+            }
+        }
+
+        internal void GetAllUsers()
+        {
+            IPEndPoint iPEndPoint = new IPEndPoint(telegram.serverConect.groupAddress, telegram.serverConect.sendPort);
+            byte[] data = Encoding.Default.GetBytes("=" + telegram.user.name);
+            Send(data, iPEndPoint);
+            IPEndPoint sender = null;
+            byte[] kol = telegram.serverConect.udpClient.Receive(ref sender);
             int j = Convert.ToInt32(Encoding.Default.GetString(kol));
             for (int i = 0; i < j; i++)
             {
-                byte[] groupData = telegram.serverConect.udpClient.Receive(ref sender);
-                string groupInfo = Encoding.Default.GetString(groupData);
+                byte[] userData = telegram.serverConect.udpClient.Receive(ref sender);
+                string userInfo = Encoding.Default.GetString(userData);
                 ListViewItem listViewItem = new ListViewItem();
-                listViewItem.Content = groupInfo;
+                listViewItem.Content = userInfo;
                 listViewItem.HorizontalContentAlignment = HorizontalAlignment.Left;
                 listViewItem.HorizontalAlignment = HorizontalAlignment.Left;
-                telegram.groupList.listGroup.Items.Add(listViewItem);
-            }
+                telegram.contactsPage.contactsList.Items.Add(listViewItem);
 
+            }
         }
 
         public void HidePage(UIElement element)
@@ -112,7 +175,7 @@ namespace WpfApp11
             Thread.CurrentThread.Abort();
         }
 
-        public void ShowFromUser(string fromUser)
+        public void ShowFromUser(string fromUser, string dateTime)
         {
 
             ListViewItem listViewItemUser = new ListViewItem();
@@ -126,7 +189,7 @@ namespace WpfApp11
             }
 
             Message msgPage = new Message();
-            msgPage.timeMessage.Content = DateTime.Now.Hour + ":" + DateTime.Now.Minute;
+            msgPage.timeMessage.Content = dateTime; 
             msgPage.fromUser.Content = fromUser;
             Frame frame = new Frame();
             frame.Navigate(msgPage);
@@ -134,26 +197,29 @@ namespace WpfApp11
             telegram.chatPage.Items.Add(listViewItemUser);
         }
 
-        public void ShowMessage(string fromUser, string msg)
+        public void ShowMessage(string toGroup,string fromUser, string msg, string dateTime)
         {
-            ShowFromUser(fromUser);
-            ListViewItem listViewItemMessage = new ListViewItem();
-
-            if (fromUser == telegram.user.name)
+            if (toGroup == telegram.curentGroup || fromUser == "Telegram")
             {
-                listViewItemMessage.HorizontalAlignment = HorizontalAlignment.Right;
-            }
-            else
-            {
-                listViewItemMessage.HorizontalAlignment = HorizontalAlignment.Left;
-            }
+                ShowFromUser(fromUser,dateTime);
+                ListViewItem listViewItemMessage = new ListViewItem();
 
-            UserMessage userMessage = new UserMessage();
-            userMessage.userMessage.Content = msg;
-            Frame frame1 = new Frame();
-            frame1.Navigate(userMessage);
-            listViewItemMessage.Content = frame1;
-            telegram.chatPage.Items.Add(listViewItemMessage);
+                if (fromUser == telegram.user.name)
+                {
+                    listViewItemMessage.HorizontalAlignment = HorizontalAlignment.Right;
+                }
+                else
+                {
+                    listViewItemMessage.HorizontalAlignment = HorizontalAlignment.Left;
+                }
+
+                UserMessage userMessage = new UserMessage();
+                userMessage.userMessage.Content = msg;
+                Frame frame1 = new Frame();
+                frame1.Navigate(userMessage);
+                listViewItemMessage.Content = frame1;
+                telegram.chatPage.Items.Add(listViewItemMessage);
+            }
 
         }
 
@@ -161,7 +227,7 @@ namespace WpfApp11
         {
             telegram.Dispatcher.Invoke(new Action(() =>
             {
-                ShowFromUser(fromUser);
+                ShowFromUser(fromUser, DateTime.Now.Hour + ":" + DateTime.Now.Minute);
                 ListViewItem listViewItemMessage = new ListViewItem();
 
                 if (fromUser == telegram.user.name)
@@ -188,13 +254,34 @@ namespace WpfApp11
                 {
                     data = telegram.udpChatClient.Receive(ref sender);
                     mg = Encoding.Default.GetString(data);
+
+
                     string toGroup = mg.Split('/')[0];
                     string fromUser = mg.Split('/')[1];
                     string message = mg.Split('/')[2];
+
                     telegram.Dispatcher.Invoke(new Action(() =>
                     {
+                        if(toGroup.Contains("%"))
+                        {
+                            string toUser = toGroup.Split('%')[1];
+                            if(toUser == telegram.user.name)
+                            {
 
-                        if (toGroup == (telegram.listbox.SelectedItem as Frame).Name)
+                            }
+                            else
+                            {
+                                if (fromUser == telegram.user.name)
+                                {
+
+                                }
+                                else
+                                {
+                                    mg = null;
+                                }
+                            }
+                        }
+                        else if (toGroup == (telegram.listbox.SelectedItem as Frame).Name)
                         {
                             mg = fromUser + "/" + message;
                         }
@@ -202,11 +289,13 @@ namespace WpfApp11
                         {
                             mg = null;
                         }
+
                         if (mg != null)
                         {
-                            ShowMessage(mg.ToString().Split('/')[0], mg.ToString().Split('/')[1]);
+                            ShowMessage(telegram.curentGroup, fromUser, message, DateTime.Now.Hour + ":" + DateTime.Now.Minute);
                         }
                     }));
+
                 }
                 else if (mg == "@")
                 {
@@ -223,7 +312,13 @@ namespace WpfApp11
                     string fileType = Encoding.Default.GetString(telegram.udpChatClient.Receive(ref sender));
 
                     string filename = FileHandler.GetFileName(fileType);
-                    File.WriteAllBytes(filename, data);
+                    try
+                    {
+                        File.WriteAllBytes(filename, data);
+                    }
+                    catch
+                    { }
+
                     telegram.Dispatcher.Invoke(new Action(() =>
                     {
                         Frame frame = new Frame();

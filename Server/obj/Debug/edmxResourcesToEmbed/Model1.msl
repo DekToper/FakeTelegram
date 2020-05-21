@@ -15,7 +15,6 @@
           <ScalarProperty Name="UserId" ColumnName="UserId" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Password" ColumnName="Password" />
-          <ScalarProperty Name="Port" ColumnName="Port" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -24,9 +23,17 @@
         <MappingFragment StoreEntitySet="Groups">
           <ScalarProperty Name="GroupId" ColumnName="GroupId" />
           <ScalarProperty Name="Name" ColumnName="Name" />
-          <ScalarProperty Name="Port" ColumnName="Port" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <AssociationSetMapping Name="UserUser" TypeName="Model1.UserUser" StoreEntitySet="UserUser">
+      <EndProperty Name="User">
+        <ScalarProperty Name="UserId" ColumnName="Friend2_UserId" />
+      </EndProperty>
+      <EndProperty Name="User1">
+        <ScalarProperty Name="UserId" ColumnName="Friend1_UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
   </EntityContainerMapping>
 </Mapping>

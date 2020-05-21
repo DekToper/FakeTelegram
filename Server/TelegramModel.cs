@@ -8,7 +8,7 @@ namespace Server
     public partial class TelegramModel : DbContext
     {
         public TelegramModel()
-            : base("name=TelegramModel")
+            : base("name=TelegramModel1")
         {
         }
 
@@ -21,6 +21,11 @@ namespace Server
                 .HasMany(e => e.Users)
                 .WithMany(e => e.Groups)
                 .Map(m => m.ToTable("UsersGroups").MapLeftKey("GroupId").MapRightKey("UserId"));
+
+            modelBuilder.Entity<Users>()
+                .HasMany(e => e.Users1)
+                .WithMany(e => e.Users2)
+                .Map(m => m.ToTable("UserUser").MapLeftKey("Friend2_UserId").MapRightKey("Friend1_UserId"));
         }
     }
 }

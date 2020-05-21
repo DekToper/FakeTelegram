@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Messages>
+  <Message>
+    <Text>Hi</Text>
+    <Time>19:45</Time>
+    <fromUser>Dima</fromUser>
+  </Message>
+  <Message>
+    <Text>Emmm</Text>
+    <Time>19:46</Time>
+    <fromUser>Test</fromUser>
+  </Message>
+  <Message>
+    <Text>Hi</Text>
+    <Time>19:58</Time>
+    <fromUser>NewUser</fromUser>
+  </Message>
+  <Message>
+    <Text>Hi</Text>
+    <Time>19:58</Time>
+    <fromUser>Dima</fromUser>
+  </Message>
+  <Message>
+    <Text>Yey</Text>
+    <Time>19:59</Time>
+    <fromUser>NewUser</fromUser>
+  </Message>
+</Messages>

@@ -61,7 +61,11 @@ namespace WpfApp11
             telegram.groupList.Visibility = Visibility.Hidden;
 
             telegram.groupList.joinButton.Click += telegram.clickHandler.JoinButton_Click;
-            
+
+            telegram.showContactsFrame.Navigate(telegram.contactsPage);
+            telegram.contactsPage.Visibility = Visibility.Hidden;
+            telegram.contactsPage.addContactButton.Click += telegram.clickHandler.AddContactButton_Click;
+            telegram.userInfoPage.contactsButton.Click += telegram.clickHandler.ShowContactsButton_Click;
 
             Button button = new Button();
             button.Content = "";
@@ -70,6 +74,8 @@ namespace WpfApp11
             color.G = 0;
             color.B = 0;
 
+            telegram.searchGroup.GotMouseCapture += telegram.clickHandler.MouseCapture;
+            telegram.searchGroup.TextChanged += telegram.clickHandler.SearchGroupText_Changed;
             
 
             SolidColorBrush brush = new SolidColorBrush(color);

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Діма\source\repos\WpfApp11\WpfApp11\App.xaml
-14-1280264413
+15-2041709977
 
-282047999821
+29852704724
 181668770537
-AddNewGroup.xaml;Group.xaml;GroupList.xaml;ImagePage.xaml;Load.xaml;Login.xaml;MainWindow.xaml;Message.xaml;FilePage.xaml;UserMessage.xaml;Wave.xaml;Register.xaml;Telegram.xaml;UserInfo.xaml;
+AddNewGroup.xaml;Group.xaml;GroupList.xaml;ImagePage.xaml;Load.xaml;Login.xaml;MainWindow.xaml;Message.xaml;FilePage.xaml;ContactsPage.xaml;UserMessage.xaml;Wave.xaml;Register.xaml;Telegram.xaml;UserInfo.xaml;
 
-True
+False
 

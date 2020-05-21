@@ -12,6 +12,8 @@ namespace Server
         public Users()
         {
             Groups = new HashSet<Groups>();
+            Users1 = new HashSet<Users>();
+            Users2 = new HashSet<Users>();
         }
 
         [Key]
@@ -25,5 +27,11 @@ namespace Server
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Groups> Groups { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Users> Users1 { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Users> Users2 { get; set; }
     }
 }

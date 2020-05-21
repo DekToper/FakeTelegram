@@ -12,6 +12,10 @@
       <End Role="User" EntitySet="Users" />
       <End Role="UsersGroups" EntitySet="UsersGroups" />
     </AssociationSet>
+    <AssociationSet Name="UserUser" Association="Model1.UserUser">
+      <End Role="User" EntitySet="Users" />
+      <End Role="User1" EntitySet="Users" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="UsersGroups">
     <Key>
@@ -31,7 +35,8 @@
     <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
     <Property Name="Password" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
     <NavigationProperty Name="UsersGroups" Relationship="Model1.UserUsersGroups" FromRole="User" ToRole="UsersGroups" />
-    <Property Name="Port" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="Friend1" Relationship="Model1.UserUser" FromRole="User" ToRole="User1" />
+    <NavigationProperty Name="Friend2" Relationship="Model1.UserUser" FromRole="User1" ToRole="User" />
   </EntityType>
   <EntityType Name="Group">
     <Key>
@@ -40,7 +45,7 @@
     <Property Name="GroupId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
     <NavigationProperty Name="UsersGroups" Relationship="Model1.GroupUsersGroups" FromRole="Group" ToRole="UsersGroups" />
-    <Property Name="Port" Type="Int16" Nullable="false" />
+    <Property Name="ImagePath" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
   </EntityType>
   <Association Name="GroupUsersGroups">
     <End Type="Model1.Group" Role="Group" Multiplicity="1" />
@@ -65,5 +70,9 @@
         <PropertyRef Name="UserId" />
       </Dependent>
     </ReferentialConstraint>
+  </Association>
+  <Association Name="UserUser">
+    <End Type="Model1.User" Role="User" Multiplicity="*" />
+    <End Type="Model1.User" Role="User1" Multiplicity="*" />
   </Association>
 </Schema>

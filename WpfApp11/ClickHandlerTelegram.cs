@@ -33,6 +33,7 @@ namespace WpfApp11
     {
         Telegram telegram;
 
+
         public ClickHandlerTelegram(Telegram t)
         {
             telegram = t;
@@ -61,6 +62,10 @@ namespace WpfApp11
             widthAnimation = new DoubleAnimation(320, 0, TimeSpan.FromSeconds(0.1));
             telegram.addNewGroup.BeginAnimation(Page.WidthProperty, widthAnimation);
             telegram.chatHandler.HidePage(telegram.addNewGroup);
+
+            widthAnimation = new DoubleAnimation(320, 0, TimeSpan.FromSeconds(0.1));
+            telegram.contactsPage.BeginAnimation(Page.WidthProperty, widthAnimation);
+            telegram.chatHandler.HidePage(telegram.contactsPage);
         }
 
         internal void CreateGroupButton_Click(object sender, RoutedEventArgs e)
@@ -69,11 +74,68 @@ namespace WpfApp11
             IPEndPoint iPEndPoint = new IPEndPoint(telegram.serverConect.groupAddress, telegram.serverConect.sendPort);
             byte[] data = Encoding.Default.GetBytes("(" + telegram.user.name + " " + groupName);
             telegram.chatHandler.Send(data, iPEndPoint);
-            telegram.chatHandler.AddGroup(groupName);
+            telegram.chatHandler.AddGroup(groupName,false);
             DoubleAnimation widthAnimation = new DoubleAnimation(320, 0, TimeSpan.FromSeconds(0.1));
             telegram.addNewGroup.BeginAnimation(Page.WidthProperty, widthAnimation);
             telegram.chatHandler.HidePage(telegram.addNewGroup);
             telegram.mainFrame.Visibility = Visibility.Hidden;  
+        }
+
+        internal void AddContactButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (telegram.contactsPage.contactsList.SelectedItems != null)
+            {
+                string friendName = (telegram.contactsPage.contactsList.SelectedItem as System.Windows.Controls.ListViewItem).Content.ToString();
+                IPEndPoint iPEndPoint = new IPEndPoint(telegram.serverConect.groupAddress, telegram.serverConect.sendPort);
+                byte[] data = Encoding.Default.GetBytes("\\" + telegram.user.name + "/" + friendName);
+                telegram.chatHandler.Send(data, iPEndPoint);
+                telegram.chatHandler.AddGroup(friendName, true);
+
+                DoubleAnimation widthAnimation = new DoubleAnimation(320, 0, TimeSpan.FromSeconds(0.1));
+                telegram.contactsPage.BeginAnimation(Page.WidthProperty, widthAnimation);
+                telegram.chatHandler.HidePage(telegram.contactsPage);
+                telegram.contactsPage.contactsList.Items.Clear();
+                telegram.mainFrame.Visibility = Visibility.Hidden;
+            }
+        }
+
+        internal void ShowContactsButton_Click(object sender, RoutedEventArgs e)
+        {
+            DoubleAnimation widthAnimation = new DoubleAnimation(235, 0, TimeSpan.FromSeconds(0.1));
+            telegram.userInfoPage.BeginAnimation(Page.WidthProperty, widthAnimation);
+            telegram.chatHandler.HidePage(telegram.userInfoPage);
+            telegram.contactsPage.contactsList.Items.Clear();
+            telegram.mainFrame.Visibility = Visibility.Visible;
+            telegram.contactsPage.Visibility = Visibility.Visible;
+            widthAnimation = new DoubleAnimation(0, 320, TimeSpan.FromSeconds(0.1));
+            telegram.contactsPage.BeginAnimation(Page.WidthProperty, widthAnimation);
+            telegram.chatHandler.GetAllUsers();
+        }
+
+        internal void SearchGroupText_Changed(object sender, TextChangedEventArgs e)
+        {
+            Task.Run(new Action(() =>
+            {
+                telegram.Dispatcher.Invoke(new Action(() =>
+                {
+                    for (int i = 0; i < telegram.listbox.Items.Count; i++)
+                    {
+                        if ((telegram.listbox.Items[i] as Frame).Name.Contains(telegram.searchGroup.Text))
+                        {
+                            telegram.listbox.SelectedItem = telegram.listbox.Items[i];
+                        }
+                    }
+                }));
+
+            }));
+        }
+
+        internal void MouseCapture(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            if (telegram.searchGroup.Text == "Search")
+            {
+                telegram.searchGroup.Text = "";
+            }
         }
 
         internal void AddNewGroupButton_Click(object sender, RoutedEventArgs e)
@@ -95,18 +157,20 @@ namespace WpfApp11
                 IPEndPoint iPEndPoint = new IPEndPoint(telegram.serverConect.groupAddress, telegram.serverConect.sendPort);
                 byte[] data = Encoding.Default.GetBytes("^" + telegram.user.name + ' ' + groupName);
                 telegram.chatHandler.Send(data, iPEndPoint);
-                telegram.chatHandler.AddGroup(groupName);
+                telegram.chatHandler.AddGroup(groupName,false);
                 DoubleAnimation widthAnimation = new DoubleAnimation(320, 0, TimeSpan.FromSeconds(0.1));
                 telegram.groupList.BeginAnimation(Page.WidthProperty, widthAnimation);
                 telegram.chatHandler.HidePage(telegram.groupList);
                 telegram.groupList.listGroup.Items.Clear();
                 telegram.mainFrame.Visibility = Visibility.Hidden;
+                telegram.chatHandler.ShowMessage(telegram.listGroupFrame.Name,"New user",$"{telegram.user.name} is here!", DateTime.Now.Hour + ":" + DateTime.Now.Minute);
             }
 
         }
 
         internal void JoinGroupButton_Click(object sender, RoutedEventArgs e)
         {
+            telegram.groupList.listGroup.Items.Clear();
             telegram.chatHandler.GetAllGroups();
             telegram.mainFrame.Visibility = Visibility.Visible;
             telegram.groupList.Visibility = Visibility.Visible;
@@ -134,8 +198,19 @@ namespace WpfApp11
             {
                 byte[] data = Encoding.Default.GetBytes("#");
                 telegram.chatHandler.Send(data, new IPEndPoint(IPAddress.Parse("224.5.5.5"), telegram.receivePort));
-                data = Encoding.Default.GetBytes((telegram.listbox.SelectedItem as Frame).Name + "/" + telegram.user.name + "/" + telegram.chatBox.Text);
+                if ((telegram.listbox.SelectedItem as Frame).Tag == "Group")
+                {
+                    data = Encoding.Default.GetBytes((telegram.listbox.SelectedItem as Frame).Name + "/" + telegram.user.name + "/" + telegram.chatBox.Text);
+                    telegram.chatHandler.SendMessageToServer(telegram.user.name, telegram.curentGroup, DateTime.Now.Hour + ":" + DateTime.Now.Minute, telegram.chatBox.Text);
+                }
+                else
+                {
+                    data = Encoding.Default.GetBytes(telegram.user.name + "%" + telegram.curentGroup + "/" + telegram.user.name + "/" + telegram.chatBox.Text);
+                    telegram.chatHandler.SendMessageToServer(telegram.user.name, "$" + telegram.curentGroup, DateTime.Now.Hour + ":" + DateTime.Now.Minute, telegram.chatBox.Text);
+
+                }
                 telegram.chatHandler.Send(data, new IPEndPoint(IPAddress.Parse("224.5.5.5"), telegram.receivePort));
+                
                 telegram.chatBox.Text = "";
             }
         }
@@ -196,7 +271,44 @@ namespace WpfApp11
         internal void SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             telegram.chatPage.Items.Clear();
-            telegram.groupName.Content = (telegram.listbox.SelectedItem as Frame).Name;
+            telegram.curentGroup = (telegram.listbox.SelectedItem as Frame).Name;
+            telegram.groupName.Content = telegram.curentGroup;
+            Task.Run(new Action(() =>
+            {
+                telegram.Dispatcher.Invoke(new Action(() =>
+                {
+                    IPEndPoint sender_ = null;
+                    byte[] d;
+                    string type = (telegram.listbox.SelectedItem as Frame).Tag as string;
+                    if (type == "Group")
+                    {
+                        d = Encoding.Default.GetBytes($"|{(telegram.listbox.SelectedItem as Frame).Name}/{type}");
+                    }
+                    else
+                    {
+                        d = Encoding.Default.GetBytes($"|{telegram.user.name}/{type}/{(telegram.listbox.SelectedItem as Frame).Name}");
+                    }
+                    telegram.serverConect.udpClient.Send(d, d.Length, new IPEndPoint(telegram.serverConect.groupAddress, telegram.serverConect.sendPort));
+                    int k = Convert.ToInt32(Encoding.Default.GetString(telegram.serverConect.udpClient.Receive(ref sender_)));
+
+                    for (int i = 0; i < k; i++)
+                    {
+                        string data = Encoding.Default.GetString(telegram.serverConect.udpClient.Receive(ref sender_));
+                        string text = data.Split('&')[0];
+                        try
+                        {
+                            string dateTime = data.Split('&')[1];
+                            string fromUser = data.Split('&')[2];
+                            telegram.chatHandler.ShowMessage(telegram.curentGroup, fromUser, text, dateTime);
+                        }
+                        catch
+                        {
+                            break;
+                        }
+                    }
+                }));
+            }));
+
         }
 
         private void SendLargeFile(object filePath)
@@ -253,6 +365,7 @@ namespace WpfApp11
 
         }
 
+        
         internal void OpenFileButton_Click(object sender, RoutedEventArgs e)
         {
             string filePath = Directory.GetCurrentDirectory() + "\\..\\..\\Records\\" + (((sender as System.Windows.Controls.Button).Parent as Grid).Parent as FilePage).fileName.Content.ToString();

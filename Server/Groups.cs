@@ -22,8 +22,6 @@ namespace Server
 
         public string ImagePath { get; set; }
 
-        public string DataPath { get; set; }
-
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Users> Users { get; set; }
     }

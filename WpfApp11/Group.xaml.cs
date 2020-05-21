@@ -21,13 +21,23 @@ namespace WpfApp11
     /// </summary>
     public partial class Group : Page
     {
-        public Group()
+        public Group(string resource)
         {
             InitializeComponent();
-            IntPtr groupBitmap = Resource1.png.GetHbitmap();
-            GroupImage.Source = Imaging.CreateBitmapSourceFromHBitmap(
-                            groupBitmap, IntPtr.Zero, Int32Rect.Empty,
-                            BitmapSizeOptions.FromEmptyOptions());
+            if (resource == "Group")
+            {
+                IntPtr groupBitmap = Resource1.png.GetHbitmap();
+                GroupImage.Source = Imaging.CreateBitmapSourceFromHBitmap(
+                                groupBitmap, IntPtr.Zero, Int32Rect.Empty,
+                                BitmapSizeOptions.FromEmptyOptions());
+            }
+            else if (resource == "User")
+            {
+                IntPtr groupBitmap = Resource1.userPng.GetHbitmap();
+                GroupImage.Source = Imaging.CreateBitmapSourceFromHBitmap(
+                                groupBitmap, IntPtr.Zero, Int32Rect.Empty,
+                                BitmapSizeOptions.FromEmptyOptions());
+            }
         }
 
     }

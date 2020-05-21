@@ -45,3 +45,5 @@ C:\Users\Діма\source\repos\WpfApp11\WpfApp11\obj\Debug\GroupList.g.cs
 C:\Users\Діма\source\repos\WpfApp11\WpfApp11\obj\Debug\GroupList.baml
 C:\Users\Діма\source\repos\WpfApp11\WpfApp11\obj\Debug\AddNewGroup.g.cs
 C:\Users\Діма\source\repos\WpfApp11\WpfApp11\obj\Debug\AddNewGroup.baml
+C:\Users\Діма\source\repos\WpfApp11\WpfApp11\obj\Debug\ContactsPage.g.cs
+C:\Users\Діма\source\repos\WpfApp11\WpfApp11\obj\Debug\ContactsPage.baml

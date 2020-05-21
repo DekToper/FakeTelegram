@@ -22,7 +22,7 @@ namespace Server
     
         public int GroupId { get; set; }
         public string Name { get; set; }
-        public short Port { get; set; }
+        public string ImagePath { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<UsersGroups> UsersGroups { get; set; }

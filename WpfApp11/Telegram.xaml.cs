@@ -45,6 +45,7 @@ namespace WpfApp11
         public bool record = false;
         public WaveFileWriter writer;
         public WaveFileReader fileReader;
+        public string curentGroup = "";
 
         public Load loadPage = new Load();
 
@@ -62,6 +63,7 @@ namespace WpfApp11
         public ChatHandler chatHandler;
         public AddNewGroup addNewGroup = new AddNewGroup();
 
+        public ContactsPage contactsPage = new ContactsPage();
         public GroupList groupList = new GroupList();
 
         public Telegram(User u, ServerConect server)
@@ -77,8 +79,9 @@ namespace WpfApp11
             config.Load();
             
             chatHandler.LoadGroups();
+            chatHandler.LoadFriends();
 
-            chatHandler.ShowMessage("Telegram", "Please select channel to continue...");
+            chatHandler.ShowMessage(curentGroup,"Telegram", "Please select channel to continue...", DateTime.Now.Hour + ":" + DateTime.Now.Minute);
 
             thread = new Thread(chatHandler.getMessage);
             thread.Start();

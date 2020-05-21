@@ -4,70 +4,110 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="Model1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <EntityType Name="Groups">
-          <Key>
-            <PropertyRef Name="GroupId" />
-          </Key>
-          <Property Name="GroupId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
-          <Property Name="Port" Type="smallint" Nullable="false" />
-        </EntityType>
-        <EntityType Name="Users">
-          <Key>
-            <PropertyRef Name="UserId" />
-          </Key>
-          <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
-          <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
-          <Property Name="Port" Type="smallint" Nullable="false" />
-        </EntityType>
-        <EntityType Name="UsersGroups">
-          <Key>
-            <PropertyRef Name="GroupId" />
-            <PropertyRef Name="UserId" />
-          </Key>
-          <Property Name="GroupId" Type="int" Nullable="false" />
-          <Property Name="UserId" Type="int" Nullable="false" />
-        </EntityType>
-        <Association Name="FK_GroupUsersGroups">
-          <End Role="Groups" Type="Self.Groups" Multiplicity="1" />
-          <End Role="UsersGroups" Type="Self.UsersGroups" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Groups">
-              <PropertyRef Name="GroupId" />
-            </Principal>
-            <Dependent Role="UsersGroups">
-              <PropertyRef Name="GroupId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_UserUsersGroups">
-          <End Role="Users" Type="Self.Users" Multiplicity="1" />
-          <End Role="UsersGroups" Type="Self.UsersGroups" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Users">
-              <PropertyRef Name="UserId" />
-            </Principal>
-            <Dependent Role="UsersGroups">
-              <PropertyRef Name="UserId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <EntityContainer Name="Model1StoreContainer">
-          <EntitySet Name="Groups" EntityType="Self.Groups" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="UsersGroups" EntityType="Self.UsersGroups" Schema="dbo" store:Type="Tables" />
-          <AssociationSet Name="FK_GroupUsersGroups" Association="Self.FK_GroupUsersGroups">
-            <End Role="Groups" EntitySet="Groups" />
-            <End Role="UsersGroups" EntitySet="UsersGroups" />
-          </AssociationSet>
-          <AssociationSet Name="FK_UserUsersGroups" Association="Self.FK_UserUsersGroups">
-            <End Role="Users" EntitySet="Users" />
-            <End Role="UsersGroups" EntitySet="UsersGroups" />
-          </AssociationSet>
-        </EntityContainer>
-      </Schema></edmx:StorageModels>
+    <Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="UsersGroups" EntityType="Model1.Store.UsersGroups" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="Model1.Store.Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Groups" EntityType="Model1.Store.Groups" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserUser" EntityType="Model1.Store.UserUser" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="GroupUsersGroups" Association="Model1.Store.GroupUsersGroups">
+      <End Role="Group" EntitySet="Groups" />
+      <End Role="UsersGroups" EntitySet="UsersGroups" />
+    </AssociationSet>
+    <AssociationSet Name="UserUsersGroups" Association="Model1.Store.UserUsersGroups">
+      <End Role="User" EntitySet="Users" />
+      <End Role="UsersGroups" EntitySet="UsersGroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserUser_User" Association="Model1.Store.FK_UserUser_User">
+      <End Role="User" EntitySet="Users" />
+      <End Role="UserUser" EntitySet="UserUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserUser_User1" Association="Model1.Store.FK_UserUser_User1">
+      <End Role="User1" EntitySet="Users" />
+      <End Role="UserUser" EntitySet="UserUser" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="UsersGroups">
+    <Key>
+      <PropertyRef Name="GroupId" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="GroupId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Groups">
+    <Key>
+      <PropertyRef Name="GroupId" />
+    </Key>
+    <Property Name="GroupId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ImagePath" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserUser">
+    <Key>
+      <PropertyRef Name="Friend2_UserId" />
+      <PropertyRef Name="Friend1_UserId" />
+    </Key>
+    <Property Name="Friend2_UserId" Type="int" Nullable="false" />
+    <Property Name="Friend1_UserId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="GroupUsersGroups">
+    <End Role="Group" Type="Model1.Store.Groups" Multiplicity="1" />
+    <End Role="UsersGroups" Type="Model1.Store.UsersGroups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="GroupId" />
+      </Principal>
+      <Dependent Role="UsersGroups">
+        <PropertyRef Name="GroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UserUsersGroups">
+    <End Role="User" Type="Model1.Store.Users" Multiplicity="1" />
+    <End Role="UsersGroups" Type="Model1.Store.UsersGroups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UsersGroups">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserUser_User">
+    <End Role="User" Type="Model1.Store.Users" Multiplicity="1" />
+    <End Role="UserUser" Type="Model1.Store.UserUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserUser">
+        <PropertyRef Name="Friend2_UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserUser_User1">
+    <End Role="UserUser" Type="Model1.Store.UserUser" Multiplicity="*" />
+    <End Role="User1" Type="Model1.Store.Users" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="User1">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="UserUser">
+        <PropertyRef Name="Friend1_UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
@@ -82,6 +122,10 @@
           <AssociationSet Name="UserUsersGroups" Association="Model1.UserUsersGroups">
             <End Role="User" EntitySet="Users" />
             <End Role="UsersGroups" EntitySet="UsersGroups" />
+          </AssociationSet>
+          <AssociationSet Name="UserUser" Association="Model1.UserUser">
+            <End Role="User" EntitySet="Users" />
+            <End Role="User1" EntitySet="Users" />
           </AssociationSet>
         </EntityContainer>
         <EntityType Name="UsersGroups" >
@@ -102,8 +146,9 @@
           <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
           <Property Name="Password" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
           <NavigationProperty Name="UsersGroups" Relationship="Model1.UserUsersGroups" FromRole="User" ToRole="UsersGroups" />
-          <Property Name="Port" Type="Int16" Nullable="false" />
-        </EntityType>
+          <NavigationProperty Name="Friend1" Relationship="Model1.UserUser" FromRole="User" ToRole="User1" />
+          <NavigationProperty Name="Friend2" Relationship="Model1.UserUser" FromRole="User1" ToRole="User" />
+          </EntityType>
         <EntityType Name="Group">
           <Key>
             <PropertyRef Name="GroupId" />
@@ -111,7 +156,7 @@
           <Property Name="GroupId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
           <NavigationProperty Name="UsersGroups" Relationship="Model1.GroupUsersGroups" FromRole="Group" ToRole="UsersGroups" />
-          <Property Name="Port" Type="Int16" Nullable="false" />
+          <Property Name="ImagePath" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
         <Association Name="GroupUsersGroups">
           <End Type="Model1.Group" Role="Group" Multiplicity="1" />
@@ -137,6 +182,10 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="UserUser">
+          <End Type="Model1.User" Role="User" Multiplicity="*" />
+          <End Type="Model1.User" Role="User1" Multiplicity="*" />
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -157,7 +206,6 @@
           <ScalarProperty Name="UserId" ColumnName="UserId" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Password" ColumnName="Password" />
-          <ScalarProperty Name="Port" ColumnName="Port" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -166,10 +214,18 @@
         <MappingFragment StoreEntitySet="Groups">
           <ScalarProperty Name="GroupId" ColumnName="GroupId" />
           <ScalarProperty Name="Name" ColumnName="Name" />
-          <ScalarProperty Name="Port" ColumnName="Port" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <AssociationSetMapping Name="UserUser" TypeName="Model1.UserUser" StoreEntitySet="UserUser">
+      <EndProperty Name="User">
+        <ScalarProperty Name="UserId" ColumnName="Friend2_UserId" />
+      </EndProperty>
+      <EndProperty Name="User1">
+        <ScalarProperty Name="UserId" ColumnName="Friend1_UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
   </EntityContainerMapping>
 </Mapping></edmx:Mappings>
   </edmx:Runtime>
